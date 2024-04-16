@@ -1,4 +1,3 @@
-import React from 'react'
 import {motion,useAnimate} from 'framer-motion'
 function Cards() {
     const cards = [useAnimate(),useAnimate()]
