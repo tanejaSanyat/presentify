@@ -15,12 +15,12 @@ function Cards() {
             </div>
         <div>FYDE</div>
         </div>
-        <div initial={{y:"100%"}} animate={cards[0]} className='absolute  left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-[130px] font-[FoundersGrotesk] font-semibold font- uppercase '>Vise</div>
+        <div className='absolute  left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-[130px] font-[FoundersGrotesk] font-semibold font- uppercase '>Vise</div>
         <img className = "rounded-xl" src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" alt="" />
         <div className='flex gap-3 uppercase text-sm'>
         {
             ["Audit" , "Copywriting", "SalesDeck" ,"Slides Design"].map((ele,key)=>(
-                <div key={key} className = {'mt-3 border-[1px] rounded-full py-1 px-2 border-slate-700'} >{ele} </div>
+                <div key={key} className = {'mt-3 border-[1px] cursor-pointer rounded-full py-1 px-2 border-slate-700 hover:bg-slate-900 hover:text-white hover:scale-110 transition duration-300'} >{ele} </div>
             ))
         }
         </div>
@@ -36,7 +36,7 @@ function Cards() {
         <div className='flex gap-3 uppercase text-sm'>
         {
             ["Agency","company presentation"].map((ele,key)=>(
-                <div key={key} className = {'mt-3 border-[1px] rounded-full py-1 px-2 border-slate-700'} >{ele} </div>
+                <div key={key} className = {'mt-3 border-[1px] cursor-pointer rounded-full py-1 px-2 border-slate-700  hover:bg-slate-900 hover:text-white hover:scale-110 transition duration-300'} >{ele} </div>
             ))
         }
         </div>
@@ -54,7 +54,7 @@ function Cards() {
         <div className='flex gap-3 uppercase text-sm'>
         {
             ["Brand Identity","Design research","Investor Deck"].map((ele,key)=>(
-                <div key={key} className = {'mt-3 border-[1px] rounded-full py-1 px-2 border-slate-700'} >{ele} </div>
+                <div key={key} className = {'mt-3 border-[1px] cursor-pointer rounded-full py-1 px-2 border-slate-700  hover:bg-slate-900 hover:text-white hover:scale-110 transition duration-300'} >{ele} </div>
             ))
         }
         </div>
@@ -70,21 +70,19 @@ function Cards() {
         <div className='flex gap-3 uppercase text-sm'>
         {
             ["branded Template"].map((ele,key)=>(
-                <div key={key} className = {'mt-3 border-[1px] rounded-full py-1 px-2 border-slate-700'} >{ele} </div>
+                <div key={key} className = {'mt-3 border-[1px] cursor-pointer rounded-full py-1 px-2 border-slate-700  hover:bg-slate-900 hover:text-white hover:scale-110 transition duration-300'} >{ele} </div>
             ))
         }
         </div>
       </div>
       </div>
       <div className='flex justify-center mt-10'>
-        <button className='border-1px w-[250px] text-sm py-4 uppercase bg-black flex text-slate-200 text-center justify-evenly rounded-full'>
-            <div className='tracking-wider'>View All case studies</div>
-            <div className='dot w-2 h-2 bg-white mt-[6px] rounded-full'></div>
+        <button className='border-1px w-[250px] text-sm py-4 uppercase bg-black flex text-slate-200 text-center justify-evenly rounded-full hover:scale-110 transition duration-300 mb-10'>
+            <div className='tracking-wider cursor-pointer '>View All case studies</div>
+            <div className='dot h-2 w-2 hover:w-3 hover:h-3 bg-white mt-[6px] rounded-full'></div>
         </button>
       </div>
     </div>
   )
 }
-
 export default Cards
-

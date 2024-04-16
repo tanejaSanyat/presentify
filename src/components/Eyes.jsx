@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import { useState } from 'react';
 const Eyes = () => {
     const [rotate,setRotate] = useState(0) ;
@@ -26,7 +26,7 @@ const Eyes = () => {
     },[])
 
   return (
-    <div  scrollclassName='eyes'>
+    <div  className='eyes'>
         <div className='flex items-center gap-10 justify-center w-full h-screen bg-center bg-cover bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg)] cursor-pointer'>
         <div className='relative w-[15vw] h-[15vw] rounded-full bg-white flex justify-center items-center text-center'>
             <div className='absolute text-white uppercase font-[Neue Montreal] antialiased text-sm z-10'>Play</div>

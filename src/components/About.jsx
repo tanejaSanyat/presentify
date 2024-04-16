@@ -1,10 +1,10 @@
-import React from 'react'
+
 
 const About = () => {
   return (
     <div data-scroll data-scroll-section data-scroll-speed="-0.3" className='about'>
     <div className="w-full p-20 bg-[#CDEA68] leading-[4vw] font-[Neue Montreal] text-black text-[52px]">
-            Ochi is a strategic partner for fast-grow­ing tech businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great peo­ple.
+            Presentify is a strategic partner for fast-grow­ing tech businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great peo­ple.
     </div>
     <div className='info h-[300px] pt-4 bg-[#CDEA68] border-y-[1px] border-[#adba7f] flex justify-around'>
         <div>What you can expect:</div>
@@ -31,9 +31,9 @@ We believe the mix of strategy and design (with a bit of coffee) is what makes y
 
         <div>
     <h1 className='text-5xl mb-6 '>Our approach:</h1>
-    <button className='bg-black w-[172px] font-[Neue Montreal] text-white px-6 py-5 rounded-[25px] flex justify-between items-center'>
-        <div className='uppercase antialiased text-sm'>read more</div>
-        <div className='w-2 h-2 bg-white rounded-full'></div>
+    <button className='bg-black w-[172px] font-[Neue Montreal] text-white px-6 py-5 rounded-[25px] flex justify-between items-center group'>
+        <div className='uppercase antialiased text-sm '>read more</div>
+        <div className='w-2 h-2 bg-white rounded-full group-hover:w-6 group-hover:h-6 transition-all ease-in-out duration-300'></div>
     </button>
         </div>
 

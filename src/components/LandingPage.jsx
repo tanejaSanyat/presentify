@@ -1,4 +1,3 @@
-import React from 'react'
 import {motion} from 'framer-motion'
 
 const LandingPage = () => {
@@ -23,15 +22,14 @@ const LandingPage = () => {
              <div key={index}>{ele}</div>
          ))
         }
-        <div className='flex' >
-            <div className='border-[1px] rounded-[20px] border-slate-600 px-5 mr-1 font-light text-sm uppercase font-[Neue Montreal] antialiased pt-1.5'>Start the project</div>
-            <span className='width-2 border-[1px] px-2 py-2 border-slate-600 text-xs rounded-full'>.jo..</span>
+        <div className='flex group' >
+            <div className='border-[1px] rounded-[20px] border-slate-600 px-5 mr-1 font-light text-sm uppercase font-[Neue Montreal] antialiased pt-1.5 group-hover:bg-slate-900 group-hover:text-white transition-all ease-in-out duration-300 cursor-pointer'>Start the project</div>
+            <span className='width-2 border-[1px] px-2 py-2 border-slate-600 text-xs rounded-full  group-hover:bg-slate-900 group-hover:text-white transition-all ease-in-out duration-300'>.jo..</span>
             </div>
  </div>
  <div data-scroll data-scroll-section data-scroll-speed="0.05" className='footerFull bg-[#0A4D43] h-[500px] border-5 pt-2 rounded-tl-[10px] rounded-tr-[10px] mt-10 flex text-[400px] overflow-hidden'>
-    <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease:"linear", repeat:Infinity, duration:10}}  className='text-white font-[FoundersGrotesk] uppercase leading-[17vw] border-t-[1px] border-slate-500  font-semibold  whitespace-nowrap pr-[100px] items center'>We Are Ouche</motion.h1>
-    <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease:"linear", repeat:Infinity, duration:10}}  className='text-white font-[FoundersGrotesk] uppercase leading-[17vw] border-t-[1px] border-slate-500  font-semibold  whitespace-nowrap  items center'>We Are Ouche</motion.h1>
-    {/* <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease:"linear", repeat:Infinity, duration:10}} className='text-white font-[FoundersGrotesk] ml-10 gap-5 uppercase font-semibold whitespace-nowrap border-t-[1px] border-slate-500'>We Are Ouche</motion.h1> */}
+    <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease:"linear", repeat:Infinity, duration:10}}  className='text-white font-[FoundersGrotesk] uppercase leading-[17vw] border-t-[1px] border-slate-500  font-semibold  whitespace-nowrap pr-[100px] items center'>We Are Presentify</motion.h1>
+    <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease:"linear", repeat:Infinity, duration:10}}  className='text-white font-[FoundersGrotesk] uppercase leading-[17vw] border-t-[1px] border-slate-500  font-semibold  whitespace-nowrap  items center'>We Are Presentify</motion.h1>
  </div>
     </div>
     
